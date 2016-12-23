@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../../../vendor/jstree/dist/themes/default/style.min.css" />
+
+    <script src="../../../../../vendor/jquery/dist/jquery.js"></script>
+    <script src="../../../../../vendor/jstree/dist/jstree.min.js"></script>
+    <script src="xsdUpload.js"></script>
+
+    <title>Модель</title>
+</head>
+<body>
+<script>
+    $(function() {
+        $('#container').jstree(/* optional config object here */);
+    });
+</script>
+<div id="container">
+    <ul>
+        <li>Root node
+            <ul>
+                <li id="child_node">Child node</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

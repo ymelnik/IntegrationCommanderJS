@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+    <script src="../../../vendor/kineticjs/kinetic.min.js"></script>
+    <script src="model.js"></script>
+    <script src="canvas.js"></script>
+    <script src="nodes/node-xsd.js"></script>
+    <script src="nodes/node-table.js"></script>
+    <script src="mapping.js"></script>
+    <title></title>
+</head>
+<body ng-app="mapping" ng-controller="MappingCtrl">
+    <div class="well">
+        <form>
+            <button class="btn btn-primary" ng-click="openMapping()">Open mapping</button>
+        </form>
+    </div>
+    <div id="mappingCanvas"></div>
+</body>
+</html>
